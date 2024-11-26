@@ -2,7 +2,6 @@ import { HiOutlineBriefcase, HiOutlineChartBar } from "react-icons/hi";
 import Stat from "./Stat";
 import { HiOutlineBanknotes, HiOutlineCalendarDays } from "react-icons/hi2";
 import { formatCurrency } from "../../utils/helpers";
-import Spinner from "../../ui/Spinner";
 
 function Stats({ bookings, confirmedStays, numDays, cabinCount }) {
   const numBookings = bookings?.length;
